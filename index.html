@@ -1,126 +1,11 @@
+
 <html lang="en-in">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>MLblog</title>
-        <style>
-            body {
-  background: #d8abed;
-  margin: 0px;
-  padding: 0px;
-}
-#stcont {
-  position: static;
-  text-align: center;
-  color: white;
-  top: 0px;
-  height: 66vh;
-  width: 100vw;
-  margin: 0px;
-}
-.svgtxt {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-#bgsvg {
-  position: absolute;
-  top: 30px;
-  left: 0px;
-  right: 0px;
-  height: 65vh;
-  width: 100vw;
-}
-.btn-grad {
-  background-image: linear-gradient(
-    to right,
-    #dc2424 0%,
-    #4a569d 51%,
-    #dc2424 100%
-  );
-}
-.btn-grad {
-  margin: 4px;
-  padding: 15px 45px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
-  display: block;
-  position: sticky;
-  z-index: 2;
-}
-
-.btn-grad:hover {
-  background-position: right center; /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none;
-}
-
-#card1 {
-  background: #3b1877;
-  color: #da5a2a;
-}
-#card2 {
-  background: #ed6f63;
-  color: #2d2926;
-}
-#card3,
-#card3 a {
-  background: #191919;
-  color: #bd8f4d;
-}
-
-#card1,
-#card2,
-#card3 {
-  padding: 10px;
-  margin: 10px;
-  text-align: center;
-  position: relative;
-  z-index: 2;
-  border-radius: 10px;
-  text-decoration: none;
-}
-#ham {
-  position: fixed;
-  top: 0;
-  margin: 4px;
-  border-radius: 5px;
-  z-index: 3;
-  background: #191919;
-  color: #bd8f4d;
-}
-
-#nav {
-  text-align: center;
-  background: #5e69ee;
-  border-radius: 10px;
-  padding: 8px;
-  margin: 0px;
-  user-select: none;
-  top: 0;
-  position: absolute;
-  z-index: 5;
-  position: absolute;
-  display: none;
-}
-.nav-card {
-  background: #f4f4fb;
-  border-radius: 12px;
-  color: #5e69ee;
-  padding: 5px;
-  margin: 3px 0px;
-}
-#nav-close svg {
-  background: #2fabe9;
-  color: #fff;
-  border-radius: 8px;
-}
-</style>
-        <body>
+        <link rel="stylesheet" href="css/MLblog_index.css">
+    </head>
+    <body>
   <div class="btn-grad">
     <div id="dateout">Mischievous Loner</div>
   </div>
@@ -160,6 +45,7 @@
     <hr>
     <h2><a href="#">Resource Collection <img src="data:image/svg+xml,%0A%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:sketch='http://www.bohemiancoding.com/sketch/ns' viewBox='0 0 100 100' version='1.1' x='0px' y='0px'%3E%3Ctitle%3Eshare%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg stroke='none' stroke-width='1' fill='none' fill-rule='evenodd' sketch:type='MSPage'%3E%3Cpath d='M5,5 L5,40.405 C5,58.204 26.519,67.117 39.105,54.532 L54.302,39.334 L23.999,39.334 L23.999,30.334 L69.999,30.334 L69.999,76.334 L60.999,76.334 L60.999,45.364 L45.468,60.895 C32.882,73.481 41.796,95 59.594,95 L95,95 L95,5 L5,5 Z' fill='%23BD8F4D' sketch:type='MSShapeGroup'%3E%3C/path%3E%3C/g%3E%3C/svg%3E" width="32" height="32"></img></a></h2>
   </div>
+<div id="footer"> </div>
   <svg id="ham" onclick="opennav()" xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="36" height="36" viewBox="0 0 24 24" stroke-width="1.5" stroke="#bd8f4d" fill="#000" stroke-linecap="round" stroke-linejoin="round">
     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
     <line x1="4" y1="6" x2="20" y2="6" />
@@ -195,30 +81,6 @@
     </div>
   </div>
 </body>
-<script>
-    var today = new Date();
-
-var day = today.getDate();
-var month = today.getMonth() + 1;
-var year = today.getFullYear();
-
-if (day < 10) {
-  day = "0" + day;
-}
-if (month < 10) {
-  month = "0" + month;
-}
-
-var out = document.getElementById("dateout");
-
-out.innerHTML = day + "/" + month + "/" + year;
-
-function opennav() {
-  document.getElementById("nav").style.display = "block";
-  window.scrollTo(0, 0);
-}
-function closenav() {
-  document.getElementById("nav").style.display = "none";
-}
+<script src="js/MLblog_index.js">
 </script>
 </html>
