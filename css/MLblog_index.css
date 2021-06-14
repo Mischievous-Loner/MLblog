@@ -1,0 +1,121 @@
+body {
+  background: #d8abed;
+  margin: 0px;
+  padding: 0px;
+}
+#stcont {
+  position: static;
+  text-align: center;
+  color: white;
+  top: 0px;
+  height: 66vh;
+  width: 100vw;
+  margin: 0px;
+}
+.svgtxt {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#bgsvg {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  right: 0px;
+  height: 65vh;
+  width: 100vw;
+}
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #dc2424 0%,
+    #4a569d 51%,
+    #dc2424 100%
+  );
+}
+.btn-grad {
+  margin: 4px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  position: sticky;
+  z-index: 2;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+#card1 {
+  background: #3b1877;
+  color: #da5a2a;
+}
+#card2 {
+  background: #ed6f63;
+  color: #2d2926;
+}
+#card3,
+#card3 a {
+  background: #191919;
+  color: #bd8f4d;
+}
+
+#card1,
+#card2,
+#card3,
+#footer {
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  position: relative;
+  z-index: 2;
+  border-radius: 10px;
+  text-decoration: none;
+}
+#ham {
+  position: fixed;
+  top: 0;
+  margin: 4px;
+  border-radius: 5px;
+  z-index: 3;
+  background: #191919;
+  color: #bd8f4d;
+}
+
+#nav {
+  text-align: center;
+  border-radius: 10px;
+  padding: 8px;
+  margin: 0px;
+  user-select: none;
+  top: 0;
+  position: absolute;
+  z-index: 5;
+  position: absolute;
+  display: none;
+  background: linear-gradient(to right, #5614b0, #f4e2d8);
+}
+.nav-card {
+  background: linear-gradient(to right, #00b09b, #904e95);
+  border-radius: 12px;
+  color: #fff;
+  padding: 5px;
+  margin: 3px 0px;
+}
+.nav-card a {
+  color: #fff;
+}
+#nav-close svg {
+  background: #2fabe9;
+  color: #fff;
+  border-radius: 8px;
+}
