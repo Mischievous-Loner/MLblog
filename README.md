@@ -8,5 +8,5 @@
 
 [Link to CDN 😎 👍](https://www.jsdelivr.com/package/gh/Mischievous-Loner/MLblog)
 ***
-<video src="https://github.com/Mischievous-Loner/MLblog/blob/main/intro.mp4?raw=true" width="100vw"></video>
+
 
