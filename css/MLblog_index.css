@@ -55,6 +55,11 @@ body {
   text-decoration: none;
 }
 
+#card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
 #card1 {
   background: #3b1877;
   color: #da5a2a;
