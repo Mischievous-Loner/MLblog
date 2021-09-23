@@ -2,6 +2,7 @@ body {
   background: #d8abed;
   margin: 0px;
   padding: 0px;
+  scroll-behavior: smooth;
 }
 #stcont {
   position: static;
