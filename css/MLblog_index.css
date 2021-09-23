@@ -57,7 +57,7 @@ body {
 
 #card-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(480px, 0.25fr));
+  grid-template-columns: repeat(auto-fit, minmax(480px, 1fr));
   grid-gap: 1rem;
 }
 #card1 {
