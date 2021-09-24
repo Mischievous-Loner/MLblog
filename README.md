@@ -2,6 +2,8 @@
 ## My Simple website for personal introduction.
 [mischievous-loner.github.io/MLblog!](https://mischievous-loner.github.io/MLblog)
 ## Screenshots
+### Dextop
+![Dex-Demo](https://raw.githubusercontent.com/Mischievous-Loner/MLblog/main/img/MLblogdextop-exif-remove.png)
 ### Mobile
 ![Mobile-Demo](https://raw.githubusercontent.com/Mischievous-Loner/MLblog/main/img/MLblog-mobile-noEXIF.jpeg)
 ***
