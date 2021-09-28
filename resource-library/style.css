@@ -1,0 +1,47 @@
+body {
+  margin: 0px;
+  display: grid;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: "Ubuntu", sans-serif;
+}
+#topbar a{
+  margin: 15px;
+  taxt-align: center;
+  color: green;
+  text-decoration: none;
+}
+#canvas {
+  width: 1fr;
+  background: #f8f4fb;
+  margin: 0px;
+  padding: 0px;
+}
+@media only screen and (min-width: 600px) {
+  #canvas {
+    display: grid;
+    grid-template-columns: repeat(3, 0.99fr);
+    grid-gap: 1rem;
+  }
+}
+
+.resources {
+  background: #831fd4;
+  color: #f8f4fb;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 1rem;
+  text-align: center;
+}
+.resources h2 {
+  text-decoration: underline;
+}
+.resources h3 {
+  font-style: italic;
+}
+h4 {
+  color: #d30707;
+  background: #f8f4fb;
+  border-radius: 0 20px 20px 0;
+  margin-left: -6px;
+}
