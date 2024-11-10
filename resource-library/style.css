@@ -4,6 +4,7 @@ body {
   padding: 0px;
   overflow-x: hidden;
   font-family: "Ubuntu", sans-serif;
+  background: #dddddd;
 }
 #topbar a{
   margin: 15px;
@@ -13,7 +14,7 @@ body {
 }
 #canvas {
   width: 1fr;
-  background: #f8f4fb;
+  background: #23222e;
   margin: 0px;
   padding: 0px;
 }
